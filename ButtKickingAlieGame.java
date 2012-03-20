@@ -13,8 +13,6 @@ import java.awt.Graphics2D;
  */
 public class ButtKickingAlieGame implements Runnable
 {
-    
-    
     public void gameLoop()
     {
         System.out.println("It worked");
