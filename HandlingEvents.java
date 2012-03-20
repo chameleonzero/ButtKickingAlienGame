@@ -55,5 +55,10 @@ public class HandlingEvents extends Canvas {
         frame.setResizable(false);
         frame.setVisible(true);
         ex.requestFocus();
+        
+        ButtKickingAlieGame bkag = new ButtKickingAlieGame();
+        
+        Thread t = new Thread(bkag);
+        t.start();
     }
 }
